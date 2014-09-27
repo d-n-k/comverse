@@ -9,6 +9,10 @@ html {
   box-sizing: border-box;
   
 }
+body {
+  margin: 0 auto;
+  padding: 0;
+}
 header {
   background-color: #FFFFFF;
   max-width: 100%;
@@ -39,7 +43,7 @@ header {
 
 .firstSect {
   background-image: url(../img/background1.png); 
-  background-position: 50% -90px;
+  background-position: 50% -40px;
   background-repeat: no-repeat;
   background-attachment: fixed;
   margin: 0 auto;

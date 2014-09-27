@@ -1,0 +1,419 @@
+.styleguide {
+  background-color: rgb(224,224,224);
+  box-sizing: border-box;
+  max-width: 100%;
+  margin: 0 auto;
+  color: white;
+  text-decoration: none;
+  
+}
+header {
+  background-color: #FFFFFF;
+  width: 100%;
+}
+
+.clearfix::after {
+  clear: both;
+  display: block;
+  content: "";
+}
+
+/*h2*/
+
+h2 {
+    font: 2.4em/42px 'open sans';
+    line-height: 1;
+    text-align: left;
+    color: white;
+    margin: 0 auto;
+    
+}
+/*h3*/
+
+h3 {
+    font: 1.6em/23px 'open sans';
+    line-height: 1;
+    text-align: left;
+    color: white;
+    margin: 0 auto;
+    
+    
+}
+
+/*button*/
+.btnBlue {
+  background: rgb(47, 149, 200);
+  color: #ffffff;
+  padding: 5px 40px 5px 20px;
+  font: 20px/1.6em 'open sans';
+  border-radius: 5px;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.5);
+  text-decoration: none;
+  position: relative;
+    
+ }
+ .btn {
+  display: block;
+  text-align: left;
+  margin: 30px 0;
+ }
+.btnBlue:after {
+  content: "\25BA";
+  font-size: 0.6em;
+  position: absolute;
+  right: 10px;
+ }
+
+
+/*menu*/
+.list {
+  background-color: #FFFFFF ;
+}
+.list ul {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  font-size: 0.625em;
+  text-transform: uppercase;
+  width: 100%;
+  
+}
+
+.nav:after {
+  clear: both;
+}
+
+.nav > li {
+  float: left;
+  list-style: none;
+  display: block;
+  
+ }
+
+ul > li {
+  margin: 0;
+
+}
+
+.nav > li a {
+  background: #FFFFFF;
+  color:#565656;
+  display: block;
+  line-height: 34px;
+  text-decoration: none;
+  text-transform: uppercase;
+  width: 100%;
+  box-sizing: border-box;
+  text-align: left;
+}
+
+.nav > li > a {
+  font-weight: bold;
+  padding: 10px 10px 0px 10px;
+  display: block;
+  text-align: left;
+  width: 100%;
+
+}
+
+.nav > li > a:hover,
+.nav > li > a:focus {
+  background: #FCFCFC;
+  color: #3399CC;
+  box-shadow: -5px 9px 8px rgba(0,0,0,0.4);
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-bottom: none;
+  width: 100%;
+  
+}
+
+.nav > li > ul {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  display: none;
+  position: absolute;
+  background: #FCFCFC;
+  top: 45px;
+  left: 0;
+  width: 100%;
+  
+}
+
+.nav ul li {
+  list-style: none;
+
+}
+
+.nav ul a {
+  background: #FCFCFC;
+  color: #585951;
+  width: 100%;
+  
+}
+
+.nav ul a:hover,
+.nav ul a:focus {
+  color: #3399CC;
+}
+
+.nav > li:hover > ul {
+  display: block;
+  width: 100%;
+}
+
+
+/*courusel indicators*/
+.carousel-indicators {
+z-index: 5;
+margin: 0;
+list-style: none;
+overflow: hidden;
+padding: 15px 0 97px;
+}
+.carousel-indicators li {
+background: #e5e5e5;
+color: #e5e5e5;
+font: 1em/11px Arial;
+text-align: center;
+float: left;
+margin-left: 7px;
+width: 11px;
+height: 11px;
+cursor: pointer;
+border-radius: 3px;
+}
+
+/*boxes*/
+.Box {
+  width: 260px;
+  height: 130px;
+  padding: 5px 15px;
+  border-radius: 8px;
+  color: white;
+  box-shadow: 0px 3px 3px 0px grey;
+  margin: 15px 0;
+  display: inline-block;
+  text-align: left;
+  
+}
+.orange {
+  background-color: rgba(255, 102, 0, 0.7);
+}
+.purple {
+  background-color: rgba(255, 51, 154, 0.9);
+}
+.green {
+  background-color: rgba(102, 204, 51, 0.9);
+}
+
+.Box:hover {
+  background-color: #ff5400;
+  opacity: 1;
+  
+}
+.Box a {
+  display: block;
+  margin: 0 auto;
+  text-decoration: none;
+  color: white;
+  vertical-align: middle;
+}
+.textBox {
+  margin: 1.8em auto;
+
+}
+.textBox span {
+  vertical-align: top;
+  font-size: 18px;
+}
+.Box:hover span {
+  text-decoration: underline;
+}
+
+p.heading {
+  font: 20px 'open sans';
+  overflow: hidden;
+  margin: 5px auto;
+  
+}
+p.secondary {
+  font: 15px 'open sans';
+  overflow: hidden;
+  margin: 5px auto;
+}
+
+/*Big Icons*/
+
+.banners li {
+  width: 150px;
+  height: 138px;
+  margin: 0 auto;
+  text-align: center;
+  list-style: none;
+  display: inline-block;
+  padding: 20px 0;
+  font-size: 0.7em;
+  color: white;
+  text-transform: uppercase;
+}
+.banners ul {
+  padding-left: 0;
+
+}
+.banners:hover img {
+  background-color: #3399CC;
+}
+/*Search box*/
+.searchbox {
+  width: 180px; 
+  height: 2em;
+  border: none;
+  display: inline-block;
+  position: relative;
+
+
+}
+
+input[type="search"] {
+  outline: none;
+  width: 180px;
+  height: 2em;
+  border-radius: 5px;
+  border: 1px solid #d2d2d2;
+
+  
+  
+}
+
+.searchbox input[type="submit"] {
+  background: url("../img/searchBtn.png") no-repeat 50% 50%;
+  border: none;
+  height: 20px;
+  width: 20px;
+  position: absolute;
+  top: 2px;
+  right: 0;
+}
+
+.searchbox .divider {
+  background: url("../img/divider.png") no-repeat 50% 50%;
+  height: 20px;
+  width: 20px;
+  border: none;
+  position: absolute;
+  top: 2px;
+  right: 13px;
+}
+
+
+/*Events*/
+.events li {
+  width: 280px;
+  list-style: none;
+}
+.events h3 {
+  color: white;
+  font: 3.6em/24px 'open sans';
+  padding: 0 0 5px 0;
+  text-transform: uppercase;
+  margin: 10px;
+
+}
+.calendar {
+  background-color: rgba(256, 256, 256, 0.4);
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  width: 100%;
+  padding: 10px 0 10px 10px;
+  margin: 0 10px 10px 0;
+  color: black;
+  
+}
+.happenningWraper .text:hover {
+  color: black;
+  
+}
+.calendar:hover {
+  background-color: rgba(256, 256, 256, 0.8);
+}
+.date {
+  background-color: #3399CC;
+  color: white;
+  width: 69px;
+  float: left;
+  margin-right: 12px;
+  text-align: center;
+  border-radius: 3px;
+}
+.events .calendar p {
+  color:#1a1a1a;
+  font: 1.6em/20px 'open sans';
+  text-decoration: none;
+  text-transform: none;
+}
+.day {
+ font: 3.2em/68px 'open sans';
+ border-bottom: 1px dotted #fff;
+ 
+}
+.month {
+  font: 1em/33px 'open sans';
+  text-transform: uppercase;
+
+}
+.events li span {
+  font-size: 1.8em;
+  text-transform: none;
+  text-decoration: none;
+}
+.ev:hover {
+  color: #1a1a1a;
+}
+
+/*success stories*/
+
+.successStories {
+  position: relative;
+  background: #ECECEC;
+}
+.story {
+  
+  z-index: 203;
+  position: relative;
+  background: white;
+  height: 210px;
+  transition: transform 0.75s;
+  overflow: hidden;
+}
+.sucStory li {
+  height: 208px;
+  width: 340px;
+
+}
+.story img{
+  float: left;
+  margin: 5px;
+  clear: both;
+}
+.textStory:before, .textStory:after {
+  content: url('../img/quote-grey.png');
+  margin: 0px 5px 0px 5px;
+}
+.textStory {
+  color: grey;
+}
+
+.line {
+  display: block;
+ /* padding-top: 10px;*/
+  border-top: 1px solid lightgrey;
+  /*margin: 10px;*/
+  margin-top: 40px;
+}
+.blueName {
+  color: #3AA6DB;
+  margin: 0 auto;
+}
+.jobDesc {
+  color: grey;
+}

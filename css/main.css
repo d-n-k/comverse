@@ -69,6 +69,8 @@ header {
 .main {
   width: 100%;
   margin: 0 auto;
+  background: #ECECEC;
+
 }
 .mSection {
   width: 940px;
@@ -128,4 +130,12 @@ header {
 .happenningWraper ul {
   padding: 0;
   margin: 30px auto;
+}
+.successStories {
+  width: 940px;
+  margin: 0 auto;
+  background: #ECECEC;
+}
+.successStories ul {
+  -webkit-padding-start: 0px;
 }

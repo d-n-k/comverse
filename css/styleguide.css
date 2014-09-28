@@ -376,6 +376,13 @@ input[type="search"] {
   position: relative;
   background: #ECECEC;
 }
+.h2Stories {
+  display: block;
+  margin: 20px 0 20px 0;
+  color:#565656;
+  text-transform: uppercase;
+  text-align: center; 
+}
 .story {
   
   z-index: 203;
@@ -388,11 +395,13 @@ input[type="search"] {
 .sucStory li {
   height: 208px;
   width: 340px;
-
+  list-style: none;
+  display: inline-block;
+  -webkit-padding-start: 0px;
 }
 .story img{
   float: left;
-  margin: 5px;
+  margin: 20px;
   clear: both;
 }
 .textStory:before, .textStory:after {
@@ -401,19 +410,49 @@ input[type="search"] {
 }
 .textStory {
   color: grey;
+  font-size: 0.8em;
 }
 
 .line {
   display: block;
- /* padding-top: 10px;*/
+  /*padding-top: 10px;*/
   border-top: 1px solid lightgrey;
-  /*margin: 10px;*/
-  margin-top: 40px;
+  margin: 60px 10px 20px 10px;
+  /*margin-top: 40px;*/
 }
 .blueName {
   color: #3AA6DB;
-  margin: 0 auto;
+  margin: 0 0 0 5px;
+  font-size: 0.8em;
 }
 .jobDesc {
   color: grey;
+  font-size: 0.6em;
+  margin: 0 0 0 5px;
+}
+.smlIcon img {
+  width: 70px;
+  float: right;
+  margin-top: -30px;
+  clear: both;
+}
+.icon {
+  width: 105px;
+  height: 92px;
+  display: inline-block;
+  margin: 5px 4px 0 0;
+}
+
+
+.back {
+  display: none;
+}
+
+.sucStory li:last-child {
+  height: 208px;
+  width: 210px;
+  list-style: none;
+  display: inline-block;
+  -webkit-padding-start: 0px;
+  background: white;
 }

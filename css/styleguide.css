@@ -385,20 +385,27 @@ input[type="search"] {
 }
 .story {
   
-  z-index: 203;
+  z-index:101;
   position: relative;
   background: white;
   height: 210px;
-  transition: transform 0.75s;
   overflow: hidden;
+  transition: transform 0.75s;
+  
 }
+
 .sucStory li {
-  height: 208px;
+  /*height: 208px;*/
   width: 340px;
   list-style: none;
   display: inline-block;
   -webkit-padding-start: 0px;
+  overflow: hidden;
 }
+.sucStory li:last-child {
+  margin-right: 0;
+}
+
 .story img{
   float: left;
   margin: 20px;
@@ -436,23 +443,110 @@ input[type="search"] {
   margin-top: -30px;
   clear: both;
 }
+
+.story:hover {
+  transform:translateY(-210px);
+}
+.back {
+  
+  position:absolute;
+  display: block;
+  z-index:100;
+  top:0;
+  left:0;  
+}
+.backtextStory {
+  height: 186px;
+  width: 318px;
+  background: #3AA6DB;
+  color: white;
+  margin-top: 80px;
+  padding: 10px;
+  margin-left: 2px;
+  
+}
+.backtextStory:before, 
+.backtextStory:after {
+  content: url('../img/quote-blue.png');
+  margin: 0px 5px 0px 5px;
+}
+
+
+.sucStory li:last-child {
+  /*height: 208px;*/
+  width: 230px;
+  list-style: none;
+  display: inline-block;
+  -webkit-padding-start: 0px;
+  
+}
+.sucStory li:last-child > a {
+  width: 60px;
+  margin-top: 25px;
+  display: inline-block;
+}
+.storySmall {
+  background: white;
+  padding-left: 10px;
+}
+.storySmall .smlIcon img {
+  margin-top: -60px;
+}
+.storySmall .smlIcon {
+  line-height: 1.05em;
+}
+
+/*small icons*/
 .icon {
   width: 105px;
   height: 92px;
   display: inline-block;
   margin: 5px 4px 0 0;
+  /*background: white;*/
+  overflow: hidden;
+  position: relative;
+
 }
-
-
-.back {
-  display: none;
+.icon > img {
+  position:relative;
+  z-index:101;
+  padding:0;
+  width:105px;
+  height:92px;
+  transition: transform 0.75s
 }
+.icon:hover > img {
+  transform:translateY(-102px);
 
-.sucStory li:last-child {
-  height: 208px;
-  width: 210px;
-  list-style: none;
+} 
+.smallhover {
+  overflow:hidden;
+  position:absolute;
+  display: block;
+  z-index:100;
+  top:0;
+  left:0;  
+}
+/*footer*/
+
+footer {
+  z-index: 1;
+  background: url("../img/footerBG.png") repeat scroll center 0, 
+  radial-gradient(ellipse at center, #ffffff 0%,transparent 100%);
+  position: relative;
   display: inline-block;
-  -webkit-padding-start: 0px;
-  background: white;
 }
+.leftFooter, .rightFooter {
+  display: inline-block;
+}
+.footer {
+  padding: 0;
+  display: inline-block;
+}
+.footer li {
+  display: inline-block;
+  vertical-align: top;
+  width: 210px;
+  color: white;
+}
+

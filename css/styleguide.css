@@ -26,6 +26,7 @@ h2 {
     text-align: left;
     color: white;
     margin: 0 auto;
+    padding-top: 5px;
     
 }
 /*h3*/
@@ -71,10 +72,10 @@ h3 {
 }
 .list ul {
   display: inline-block;
-  margin: 0;
+  
   padding: 0;
   position: relative;
-  font-size: 0.625em;
+  font-size: 0.770em;
   text-transform: uppercase;
   width: 100%;
   
@@ -88,6 +89,7 @@ h3 {
   float: left;
   list-style: none;
   display: block;
+  margin-bottom:-21px;
   
  }
 
@@ -100,17 +102,17 @@ ul > li {
   background: #FFFFFF;
   color:#565656;
   display: block;
-  line-height: 34px;
+  line-height: 20px;
   text-decoration: none;
   text-transform: uppercase;
-  width: 100%;
+  width: 940px;
   box-sizing: border-box;
   text-align: left;
 }
 
 .nav > li > a {
   font-weight: bold;
-  padding: 10px 10px 0px 10px;
+  padding: 10px 10px 5px 10px;
   display: block;
   text-align: left;
   width: 100%;
@@ -133,10 +135,13 @@ ul > li {
   display: none;
   position: absolute;
   background: #FCFCFC;
-  top: 45px;
+  top: 37px;
   left: 0;
-  width: 100%;
+  width: 940px;
   
+}
+.nav > li > ul > li {
+  width: 940px;
 }
 
 .nav ul li {
@@ -159,6 +164,9 @@ ul > li {
 .nav > li:hover > ul {
   display: block;
   width: 100%;
+  margin-left: -185px;
+  width: 940px;
+
 }
 
 
@@ -269,7 +277,9 @@ p.secondary {
   height: 2em;
   border: none;
   display: inline-block;
-  position: relative;
+  position: absolute;
+  right: 0;
+  top: 40px;
 
 
 }
@@ -535,10 +545,13 @@ footer {
   radial-gradient(ellipse at center, #ffffff 0%,transparent 100%);
   position: relative;
   display: inline-block;
+  width: 100%;
 }
+
 .leftFooter, .rightFooter {
   display: inline-block;
 }
+
 .footer {
   padding: 0;
   display: inline-block;
@@ -546,7 +559,38 @@ footer {
 .footer li {
   display: inline-block;
   vertical-align: top;
-  width: 210px;
+  width: 220px;
   color: white;
+  margin-bottom: 10px;
 }
+.footerMenu > a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  font-size: 0.7em;
 
+}
+.footerRight {
+  float: right;
+  background-color: rgba(132, 132, 132, 0.3);
+  border-right: 1px solid #212020;
+  border-left: 1px solid #212020;
+  padding: 27px 18px 0;
+  width: 226px;
+  height: 295px;
+}
+.bottomTM > li {
+  display: inline-block;
+  color: #969696;
+  font-size: 0.7em;
+  
+}
+.bottomTM {
+  margin-bottom: 0;
+}
+.footerMenu > a:hover {
+  text-decoration: underline;
+}
+.posts a p {
+  text-decoration: none;
+}

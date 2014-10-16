@@ -138,6 +138,7 @@ ul > li {
   top: 37px;
   left: 0;
   width: 940px;
+  z-index: 3;
   
 }
 .nav > li > ul > li {
@@ -383,7 +384,7 @@ input[type="search"] {
 /*success stories*/
 
 .successStories {
-  position: relative;
+  /*position: relative;*/
   background: #ECECEC;
 }
 .h2Stories {
@@ -394,14 +395,19 @@ input[type="search"] {
   text-align: center; 
 }
 .story {
-  
-  z-index:101;
-  position: relative;
+   
+  z-index: 101;
+  /*position: relative;*/
   background: white;
   height: 210px;
   overflow: hidden;
   transition: transform 0.75s;
   
+}
+.wraperStory {
+  position: relative;
+  z-index: 101;
+  overflow: hidden;
 }
 
 .sucStory li {
@@ -428,6 +434,8 @@ input[type="search"] {
 .textStory {
   color: grey;
   font-size: 0.8em;
+  margin: 0 auto;
+  padding-top: 10px;
 }
 
 .line {
@@ -461,22 +469,26 @@ input[type="search"] {
   
   position:absolute;
   display: block;
-  z-index:100;
+  z-index:-1;
   top:0;
   left:0;  
 }
 .backtextStory {
-  height: 186px;
-  width: 318px;
+  height: 200px;
+  width: 330px;
   background: #3AA6DB;
   color: white;
-  margin-top: 80px;
-  padding: 10px;
-  margin-left: 2px;
+  margin: 0 auto;
+  font-size: 0.8em;
+  padding: 10px 10px 0 10px;
+  
+  
   
 }
 .backtextStory:before, 
-.backtextStory:after {
+.backtextStory:after,
+.backtextSStory:before, 
+.backtextSStory:after {
   content: url('../img/quote-blue.png');
   margin: 0px 5px 0px 5px;
 }
@@ -490,20 +502,51 @@ input[type="search"] {
   -webkit-padding-start: 0px;
   
 }
-.sucStory li:last-child > a {
+/*.sucStory li:last-child > a {
   width: 60px;
   margin-top: 25px;
   display: inline-block;
-}
+}*/
 .storySmall {
   background: white;
   padding-left: 10px;
+  transition: transform 0.75s;
+  margin: 0 auto;
+  padding-top: 10px;
 }
 .storySmall .smlIcon img {
-  margin-top: -60px;
+  margin-top: -62px;
+  clear: both;
 }
 .storySmall .smlIcon {
   line-height: 1.05em;
+  clear: both;
+}
+.storySmall:hover {
+  transform:translateY(-210px);
+}
+.wraperSStory {
+  position: relative;
+  z-index: 101;
+  clear: both;
+}
+.backSmall {
+  position:absolute;
+  display: block;
+  z-index:-1;
+  top:0;
+  left:0;
+  width: 230px; 
+}
+.backtextSStory {
+  width: 230px;
+  height: 185px;
+  background: #3AA6DB;
+  color: white;
+  margin: 0 auto;
+  font-size: 0.8em;
+  /*padding: 10px 10px 0 10px;*/
+  
 }
 
 /*small icons*/

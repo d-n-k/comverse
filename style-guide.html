@@ -1,235 +1,215 @@
 <!DOCTYPE html>
-<html class="styleguide" lang="en">
+<html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <title>Document</title>
-  <link rel="stylesheet" href="css/styleguide.css">
-  <link rel="stylesheet" href="css/main.css">
-  <style type="text/css"></style>
+	<meta charset="UTF-8">
+	<title>style-guide | comeverse</title>
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/styleguide.css">
 </head>
-<body>
-  <header>
-   	
-    <nav class = "list">
-      <ul class= "clearfix">
-        <li>
-          <select>
-              <option value="en">EN</option>
-              <option value="ru">RU</option>
-              <option value="he">HE</option>
-          </select>
-        </li>
-        <li>Customer Login</li>
-      </ul>
-    </nav>
-    
-   </div> 
-  </header>
-  <div class="main">
-  <p class = "headers">LOGO</p>
-  	<a class="brand" href="http://www.comverse.com/">
-    <img alt="comverseLOGO" src="img/logo.png" /></a>
+<body class="sg-body">
+    <h1 class="sg-heading">Comverse style guide</h1>
+    <div class="content-wrapper sg-wrapper clearfix">
 
-<p class = "headers">H2</p>
-
-    <h2>Free Your Markets From IT Complexity</h2>
-<p class = "headers">H3</p>
-    <h3>Comverse Policy Studio<br/>1st ever Marketing-Oriented Policy Tool</h3>
-
-<p class = "headers">Button</p>
-    <a class="btnBlue" href=""><span class="text">Learn More</span> </a>
-    <section class="boxes">
-    
-<p class = "headers">BOXES</p>
-    <div class="Box">
-      <a href="" target="_blank">
-        <div class="text-wrapper">
-          <p class="heading">Meet Us at Managed Services World Congress 2014</p>
-          <p class="secondary">London, UK, September 16-17, 2014</p>
+        <!-- #BRAND -->
+    	<h2 class="sg-heading">Brand</h2>
+    	<h3  class="sg-heading">Logo</h3>
+        <div class="content-wrapper clearfix">
+            <a class="brand" href="#">Comverse Inc</a>
         </div>
-        <div class="textBox"><img alt="" src="img/colorBoxsIcon01.png" />
-        <span>Click for More Info</span>
+        <!-- #brand-colors -->
+    	<h3 class="sg-heading">Brand colors</h3>
+        <div class="content-wrapper clearfix">
+            <!-- waiting to fill -->
         </div>
-      </a>
+
+        <!-- #HEADINGS -->
+        <h2 class="sg-heading">Headings</h2>
+        <h3  class="sg-heading">h2 carousel heading</h3>
+        <div class="content-wrapper clearfix">
+            <h2>this is a h2 heading for the carousel slides</h3>
+        </div>
+        <h3 class="sg-heading">h2 section heading light</h3>
+        <div class="content-wrapper clearfix">
+            <h2 class="section">this is a h2 light heading for a section</h2>
+        </div>
+        <h3 class="sg-heading">h3 heading</h3>
+        <div class="content-wrapper clearfix">
+            <h3>this is a h3 heading</h3>
+        </div>
+
+        <!-- #LISTS -->
+        <h2 class="sg-heading">Lists</h2>    
+        <!-- #navigation -->
+        <h3 class="sg-heading">main navigation</h3>
+        <div class="content-wrapper sg-inner-wrapper clearfix">
+            <label for="hamburger-nav">Menu</label>
+            <input type="checkbox" id="hamburger-nav">
+            <nav class="navigation main clearfix">
+                <ul>
+                    <li><a href="#">item one</a></li>
+                    <li><a href="#">item two</a></li>
+                    <li><a href="#">item three</a></li>
+                    <li><a href="#">item four</a></li>
+                </ul>
+            </nav>
+        </div>
+        <!-- #site-map -->
+        <h3 class="sg-heading">Sitemap Navigation list</h3>
+        <div class="content-wrapper sg-footer clearfix">
+        <!-- start component -->
+            <ul class="sitemap clearfix">
+                <li>
+                    <h4 class="sitemap-list-title">key solutions</h4>
+                    <ul class="sitemap-list-item">
+                        <li><a href="#">Monetizing Data</a></li>
+                        <li><a href="#">Over-the-top (OTT)</a></li>
+                        <li><a href="#">Machine 2 Machine (M2M)</a></li>
+                        <li><a href="#">Cloud Computing</a></li>
+                        <li><a href="#">Managed Services</a></li>
+                        <li><a href="#">Customer Experience Management</a></li>
+                        <li><a href="#">Rich Communication Suite (RCS)</a></li>
+                        <li><a href="#">Social Media</a></li>
+                        <li><a href="#">4G/ LTE</a></li>
+                    </ul>
+                </li>
+            </ul>
+        <!-- end component -->
+        </div>
+        <!-- #sub-navigation -->
+        <h3 class="sg-heading">sub-navigation</h3>
+        <div class="content-wrapper sg-footer clearfix">
+            <ul class="sub-navigation clearfix">
+                <li>Copyright © 2012 Comverse, Inc.</li>
+                <li><a href="#">Privacy Policy</a></li>
+            </ul>
+        </div>
+
+        <!-- #BUTTONS -->
+        <h2 class="sg-heading">buttons</h2>
+        <!-- #primary-btn -->
+        <h3 class="sg-heading">primary button</h3>
+        <div class="content-wrapper clearfix">
+            <a class="btn" href="#">learn more</a>
+        </div>
+
+        <!-- #FORMS -->
+        <h2 class="sg-heading">Forms</h2>
+        <!-- #searchbox -->
+        <h3 class="sg-heading">searchbox</h3>
+        <div class="content-wrapper sg-inner-wrapper clearfix">
+            <label for="search-tap">Search</label>
+            <input type="checkbox" id="search-tap">
+            <form class="searchbox">
+                <input type="search" placeholder="Search">
+                <input type="submit">
+            </form>
+        </div>
+    	<!-- #sign-up -->
+        <h3 class="sg-heading">sign-up</h3>
+        <div class="content-wrapper clearfix">
+            <form class="signup-form">
+                <input type="email">
+                <input type="submit" value="SIGN UP" class="btn-sign-up">
+            </form>
+        </div>
+
+        <!-- #MODULES -->
+        <h2 class="sg-heading">modules</h2>
+        <!-- #promotion-item -->
+        <h3 class="sg-heading">information-item</h3>
+        <div class="content-wrapper sg-inner-wrapper clearfix">
+            <ul class="promotions clearfix">
+                <li class="promotion-item pink">
+                    <a href="#">
+                        <p>This is the information-box heading</p>
+                        <footer>
+                            <a role="more-info" href="#">Read More</a>
+                        </footer>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <!-- #event-item -->
+        <h3 class="sg-heading">event-item</h3>
+        <div class="content-wrapper clearfix">
+            <ul class="events clearfix">
+                <li>
+                    <h3 class="light">news</h3>
+                    <a href="#">
+                        <div class="event">
+                            <div class="date">
+                                <div class="day">29</div>
+                                <div class="month">Aug</div>
+                            </div>
+                            <p>Comverse regains lead in convergent changing markets</p>
+                        </div>
+                    </a>
+                    <a class="view-all news" href="#">All News</a>
+                </li>
+            </ul>
+        </div>
+        <!-- #testimonial-item -->
+        <h3 class="sg-heading">testimonials-items</h3>
+        <div class="content-wrapper clearfix">
+            <ul class="testimonials-container clearfix">
+                <li class="clearfix">
+                    <div class="wrap-testimonial large-wrap">
+                        <a href="#">
+                            <div class="testimonials large-ts">
+                                <img class="testimonials-author-profile-picture" src="img/CB-JP-face.png" width="100" height="100" alt="Adale Kehassan profile picture">
+                                <blockquote>BTC, a full-service provider in the Bahamas, depends on Comverse solut…</blockquote>    
+                                <footer class="testimonials-info">
+                                    <div class="testimonials-author">
+                                        <p class="name"><cite>Jonathan Pierce</cite></p>
+                                        <p class="position">Group Mobile Architect</p>
+                                    </div>
+                                    <img class="testimonials-author-logo" src="img/cable_wireless_w100px_X_h42px2.jpg" width="100" height="42" alt="wireless company logo">
+                                </footer>
+                            </div>
+                            <div class="testimonials-back large-ts-back">
+                                <blockquote>BTC, a full-service provider in the Bahamas, depends on Comverse solutions for real-time BSS, voice services, SMS, MMS and data management and monetization.</blockquote>   
+                            </div>
+                        </a>
+                    </div>
+                    <div class="wrap-testimonial medium-wrap">
+                        <a href="#">
+                            <div class="testimonials medium-ts">
+                                 <blockquote>Comverse has demonstrated that they are partners, not just suppliers</blockquote>  
+                                <footer class="testimonials-info">
+                                    <div class="testimonials-author">
+                                        <p class="name"><cite>Adale Kehassan</cite></p>
+                                        <p class="position">CIO</p>
+                                    </div>
+                                    <img class="testimonials-author-logo" src="img/multilinks.jpg" width="70" height="40" alt="multilinks company logo">
+                                </footer>
+                            </div>
+                            <div class="testimonials-back medium-ts-back">
+                                <blockquote>Comverse has demonstrated that they are partners, not just suppliers</blockquote>   
+                            </div>
+                        </a>
+                    </div>
+                    <div class="wrap-testimonial small-wrap">
+                        <a href="#">
+                            <div class="testimonials small-ts">
+                                <img src="img/mts_w108px_X_h95px.jpg" width="108" height="95" alt="mts company logo">
+                            </div>
+                            <div class="testimonials-back small-ts-back">
+                                <img src="img/logos_generic_2nd_side_cut_02_w108px_x_h95px.jpg" width="108" height="95" alt="play video icon">
+                            </div>
+                        </a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <!-- #solution-item -->
+        <h3 class="sg-heading">Solution-item</h3>
+        <div class="content-wrapper clearfix">
+            <ul class="our-solutions clearfix">
+                <li class="solution biz-analytics">
+                    <a href="#"><p>Business Stimulating Analytics</p></a>
+                </li>
+            </ul>
+        </div>
     </div>
-    
-
-
-    </div>
-    </section>
-<p class = "headers">Main Nav</p>
-
-	<nav class = "list clearfix">
-        <ul class="nav">
-          <li><a href="#">Your needs</a>
-            <ul>
-                <li><a href="#">Smart Monetization</a></li>
-                <li><a href="#">Digital Customer Experience</a></li>
-                <li><a href="#">Personalized Choice & Control</a></li>
-                <li><a href="#">Optimization and Efficiency</a></li>
-            </ul>      
-          </li>
-          <li><a href="#">Our portfolio</a>
-			<ul>
-                <li><a href="#">BSS - Business Support Systems</a></li>
-                <li><a href="#">Converged BSS</a></li>
-                <li><a href="#">Personalized Choice & Control</a></li>
-                
-            </ul>    
-          </li>
-          <li><a href="#">News & Media</a></li>
-          <li><a href="#">About Comverse</a></li>
-        </ul>
-    </nav>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<p class = "headers">Big Icons</p>
-
-    <nav>
-      <ul class="banners">
-        <li href="",><img src="img/iconStimul.png" alt="Business Stimulating Solutions" />Business Stimulating Solutions</li>
-      </ul>
-    </nav>
-    
-<p class = "headers">Search</p>
-
-	<div class="searchbox">
-    	 <input type="search" name="search">
-    	 <input type="submit" value="" id="search-submit" alt="search">
-  		 <span class="divider"></span>
-  		 
-    </div>
-
-
-    
-<p class = "headers">Event Box</p>     
-   
-
-   <section>
-    <h2>What's happenning at comverse</h2>
-    <ul class="events">
-      <li>
-        <h3>News</h3>
-        <a href="#">
-        <div class="calendar">
-          <div class="date">
-            <div class="day">04</div>
-            <div class="month">Sep</div>
-          </div>
-          <p>Comverse regains lead in Convergent Market</p>
-          </div>
-        </a>
-        	
-        <div class="ev text"><a href =""><img alt="" src="img/iconnews.png" />  
-        <span>All News</span>
-        </a></div>
-        
-      </li>
-          
-   </section>
-   
-  </div>
-  <section class="successStories">
-    <h2 class="h2Stories">Success Stories</h2>
-     <ul class="sucStory">
-       <li>
-         <div class="story">
-           <img src="img/foto2.png" alt="S Korotych" />
-           <p class="textStory">We have very good and very warm relations with comverse</p>
-           <p class="line"></p>
-           <div class="smlIcon">
-            <p class="blueName">Sergey Korotych</p>
-            <p class="jobDesc">Deputy CTO, 3 MOB Ukraine</p>
-            <img src="img/btc.jpg" alt="" />
-           </div>
-         </div>
-         <div class="back">
-           <p class="backtextStory">BTC, a full-service provider in the Bahamas, depends on Comverse solutions for real-time BSS, voice services, SMS, MMS and data management and monetization.</p>
-         </div>
-         <a href="" class="icon">
-         <img src="img/mtc.jpg" alt="">
-          <div class="smallhover">
-            <img src="img/hover.jpg" alt="" />
-          </div>
-         </a>
-         <a href="" class="icon">
-         <img src="img/tata.jpg" alt="">
-          <div class="smallhover">
-            <img src="img/hover.jpg" alt="" />
-          </div>
-         </a>
-         <a href="" class="icon">
-         <img src="img/upc.jpg" alt="">
-          <div class="smallhover">
-            <img src="img/hover.jpg" alt="" />
-          </div>
-         </a>
-                  
-       </li>
-
-<p class = "headers">Footer</p>   
- <footer>
-   <div class="leftFooter">
-   <ul class="footer">
-        <li class="footerMenu">
-                    <h3>Your Needs</h3>
-                    <a href="">Smart Monetization</a>
-                    <a href="">Digital Customer Experience</a>
-                    <a href="">Personalized Choice &amp; Control</a>
-                    <a href="">Optimization and Efficiency</a>
-                    <a href="">Business Stimulating Analytics</a>
-                    <a href="">Business Transformation</a>
-                    <a href="">Customer Evolution</a>
-        </li>
-        <li class="footerMenu">
-                    <h3>Our Portfolio</h3>
-                    <a href="">BSS - Business Support Systems</a>
-                    <a href="">Digital Services</a>
-                    <a href="">Policy</a>
-                    <a href="">Services</a>
-        </li>
-        <li class="footerMenu">
-                    <h3>News &amp; Media</h3>
-                    <a href="">Press Releases</a>
-                    <a href="">Events</a>
-                    <a href="">In the News</a>
-                    <a href="">Success Stories</a>
-                    <a href="">Awards</a>
-                    <a href="">Multimedia &amp; Webinars</a>
-                    <a href="">Newsletter</a>
-                    <a href="">Articles and Papers</a>
-                    <a href="">Careers</a>
-                    <a href="">About Comverse</a>
-        </li>
-  </ul>
-  </div>   
-  <div class="footerRight">
-    <h4>LATEST BLOG POSTS</h4>
-    <div class="posts">
-     <a href="">
-      <div class="date">
-       <div class="day">18</div>
-       <div class="month">Jul</div>
-      </div>
-      <p>
-       Comverse regains lead in Convergent Market...
-      </p>
-     </a>
-    </div>
-  <ul>
-    <li>Copyright &#169; 2014 Comverse, Inc.</li>
-    <li>|</li>
-    <li>Privacy Policy</li>
-  </ul> 
-   
- </footer>
 </body>
 </html>
-
- 
-
- 
